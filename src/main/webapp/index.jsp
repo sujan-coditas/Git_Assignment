@@ -10,7 +10,8 @@
 <body>
 
         <form action="hello" method="get">
-        <input type="submit" name="submit">
+       Press the below Button<br>
+               <input type="submit" value="PRESS HERE">
         </form>
 	<c:if test="${not empty param.name}">
 		<p>Name: ${param.name}</p>
